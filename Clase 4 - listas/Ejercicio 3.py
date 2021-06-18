@@ -8,13 +8,14 @@
 list1=[]
 list2=[]
 list3=[]
-for x in range (0,5):
-    nombre1 = str(input("Ingrese un nombre para la primer lista: "))
-    list1.append(nombre1)
-for x in range (0,5):
-    nombre2 = str(input("Ingrese un nombre para la primer lista: "))
-    list2.append(nombre2)
+for x in range (5):
+    list1.append(str(input("Ingrese un nombre para la primer lista: ")))
+for x in range (5):
+    list2.append(str(input("Ingrese un nombre para la primer lista: ")))
 for elemento in list2:
     if elemento in list1:
         list3.append(elemento)
-print("Los nombres repetidos son", list3)
+#print("Los nombres repetidos son", list3)
+print(*list3, sep=", ")
+
+
