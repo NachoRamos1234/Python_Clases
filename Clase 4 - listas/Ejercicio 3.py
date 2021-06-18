@@ -5,12 +5,12 @@
 #Despues de toda la lógica, el programa debería devolver “Los nombres que se repiten son nombre1, nombre2, nombre4
 
 
-list1=[]
-list2=[]
-list3=[]
-for x in range (5):
+list1 = []
+list2 = []
+list3 = []
+for x in range(5):
     list1.append(str(input("Ingrese un nombre para la primer lista: ")))
-for x in range (5):
+for x in range(5):
     list2.append(str(input("Ingrese un nombre para la primer lista: ")))
 for elemento in list2:
     if elemento in list1:
