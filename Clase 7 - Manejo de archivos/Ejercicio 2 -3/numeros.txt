@@ -1,0 +1,4 @@
+Los numeros pares mayores a 20 son: 
+62
+86
+90
